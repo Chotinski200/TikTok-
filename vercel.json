@@ -5,5 +5,13 @@
       "destination": "https://backend.composio.dev/api/v3.1/toolkits/auth/callback",
       "permanent": false
     }
+  ],
+  "headers": [
+    {
+      "source": "/(.*)\\.txt",
+      "headers": [
+        { "key": "Content-Type", "value": "text/plain; charset=utf-8" }
+      ]
+    }
   ]
 }
