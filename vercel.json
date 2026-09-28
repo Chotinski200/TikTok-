@@ -1,0 +1,9 @@
+{
+  "redirects": [
+    {
+      "source": "/composio-redirect",
+      "destination": "https://backend.composio.dev/api/v3.1/toolkits/auth/callback",
+      "permanent": false
+    }
+  ]
+}
